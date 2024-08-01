@@ -1,0 +1,15 @@
+{% extends "base.html" %} {% block title %}Home{% endblock %} {% block content
+%}
+<div class="row justify-content-center mt-5">
+  <div class="col-md-8 text-center">
+    <div class="card">
+      <div class="card-body">
+        <h1 class="display-4">Welcome to the Home Page!</h1>
+        <p class="lead">This is the main landing page of your Flask app.</p>
+        <a href="/login" class="btn btn-primary btn-lg mt-3">Login</a>
+        <a href="/register" class="btn btn-secondary btn-lg mt-3">Register</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
