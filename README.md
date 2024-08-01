@@ -1,5 +1,3 @@
-Here's the markdown for your Flask app based on the content you provided:
-
 ```markdown
 # Flask Login Application
 
